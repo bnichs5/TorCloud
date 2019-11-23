@@ -41,10 +41,10 @@ export default class MaClass extends React.Component {
       <div className="footer" style={style.div}>
         <p style={style.version}>Version {this.state.version}</p>
         <p style={style.feedback}>
-          <a target="_blank" href="https://github.com/Lunik/tcloud/issues">FeedBack</a>
+          <a target="_blank" href="https://github.com/bnichs5/torcloud/issues">FeedBack</a>
         </p>
         <p style={style.author}>Powered by<span> </span>
-          <a target="_blank" href="https://github.com/Lunik">@Lunik</a>
+          <a target="_blank" href="https://github.com/bnichs5">@bnichs5</a>
         </p>
       </div>
     )
