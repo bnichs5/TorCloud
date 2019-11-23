@@ -65,7 +65,7 @@ export default class Bar extends React.Component {
         style={style.div}
         className={classNames('nav', this.state.fixed ? 'fixed' : '')}>
         <Logo style={style.logo} />
-        <h1 style={style.title}>TCloud</h1>
+        <h1 style={style.title}>TorCloud</h1>
         <ExitIcon style={style.exitIcon} onClick={(e) => this.logout()}/>
         <SearchBar style={style.search}/>
         {/* <GhostIcon style={style.profilePicture} /> */}
